@@ -1,0 +1,187 @@
+# C++ Build files
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Visual Studio files
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Conan
+conanfile.txt
+conaninfo.txt
+conanbuildinfo.*
+conan.lock
+
+# vcpkg
+vcpkg_installed/
+
+# Dependencies
+third_party/
+external/
+deps/
+
+# Test results
+test_results/
+*.xml
+*.junit
+
+# Coverage reports
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# Profiling
+*.prof
+gmon.out
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Configuration files with secrets
+config/local.json
+config/production.json
+*.env
+.env.*
+!.env.example
+
+# Email data and credentials
+emails/
+credentials/
+tokens/
+*.pem
+*.key
+*.crt
+
+# Machine learning models
+models/
+*.model
+*.pkl
+training_data/
+
+# Documentation build
+docs/build/
+docs/_build/
+
+# Package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Web build artifacts (if any)
+web/node_modules/
+web/build/
+web/dist/
+web/.env
+web/logs/
+
+# Backup files
+*.backup
+*.bak
+
+# Editor files
+*.sublime-*
+*.kate-swp
+
+# Profiling and debugging
+callgrind.out.*
+massif.out.*
+*.memcheck
+
+# Static analysis
+cppcheck-results.xml
+scan-build-*/
+
+# Doxygen
+html/
+latex/
+
+# Catch2 test framework
+catch2/
+
+# Google Test
+googletest/
+gtest/
+
+# Benchmark results
+benchmark_results/
+
+# Sanitizer outputs
+*.asan
+*.tsan
+*.msan
+*.ubsan
